@@ -1,0 +1,226 @@
+body {
+    max-width: 992px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Almarai', sans-serif;
+    margin: 0, auto;   
+
+    background-color:#ffff;
+    background-image:
+    linear-gradient(67.5deg, #ffff 10%, transparent 10%),
+    linear-gradient(157.5deg, #ffff 10%, transparent 10%),
+    linear-gradient(67.5deg, transparent 90%, #ffff 90%),
+    linear-gradient(157.5deg, transparent 90%, #ffff 90%),
+      
+    linear-gradient(22.5deg, #ffff 10%, transparent 10%),
+    linear-gradient(112.5deg, #ffff 10%, transparent 10%),
+    linear-gradient(22.5deg, transparent 90%, #ffff 90%),
+    linear-gradient(112.5deg, transparent 90%, #ffff 90%),
+    
+    linear-gradient(22.5deg, transparent 33%,#d1f9d1 33%, #d1f9d1 36%, transparent 36%, transparent 64%, #d1f9d1 64%, #d1f9d1 67%, transparent 67%),
+    linear-gradient(-22.5deg, transparent 33%, #d1f9d1 33%, #d1f9d1 36%, transparent 36%, transparent 64%, #d1f9d1 64%, #d1f9d1 67%, transparent 67%),
+    linear-gradient(112.5deg, transparent 33%, #d1f9d1 33%, #d1f9d1 36%, transparent 36%, transparent 64%, #d1f9d1 64%, #d1f9d1 67%, transparent 67%),
+    linear-gradient(-112.5deg, transparent 33%, #d1f9d1 33%, #d1f9d1 36%, transparent 36%, transparent 64%, #d1f9d1 64%, #d1f9d1 67%, transparent 67%);
+   
+    background-size: 250px 250px;
+    background-position: 
+      -100px 150px, -150px 150px, -150px 100px, -100px 100px,
+      -150px 100px, -100px 100px, -100px 150px, -150px 150px,
+      0 0, 0 0, 0 0, 0 0;
+  }
+.naslov{
+    text-align: center;
+    font-size: 3em;
+    background-color: #edfbed;
+    color: #000000;
+    padding:0;
+    max-height: 1340px;
+    line-height: 40px;
+}
+.drugiDio {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -2rem;
+    margin-bottom: -3rem;
+}
+#dan_u_mjesecu{
+    font-size: 2rem;
+    color: #00BF00;
+    position: absolute;
+    background-image: url(octagram-icon.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mjesecBroj {
+    font-size: 2rem;
+    color: #00BF00;
+    position: absolute;
+    background-image: url(octagram-icon.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent__div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 992px;
+}
+.mjesec__broj {
+    position: absolute;
+    top: 0px;
+    margin: 0;
+}
+.krugovi {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    border: 0px solid green;
+    background-image: url(octagram-icon.png) ;
+}
+#tacnoVrijeme {
+    font-size: 4rem;
+    display: flex;
+    width: 263px;
+    align-items: center;
+    justify-content: center;
+}
+.treciDio {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 3rem;
+}
+.mjesecigodina {
+    line-height: 0.8px;
+}
+.cetvrtiDio {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 20px;
+    margin-top: -1rem ;
+  }
+  .namaskaImena{
+    display: flex;
+    flex-direction: column;
+  }
+  .namaskaVremena {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: end;
+}
+.petiDio{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    justify-content:space-around;
+    background-color:#00BF00;
+    margin-bottom: -3rem;
+}
+.dzuma{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+}
+.dzuma h3, .dzuma h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+.sljedeci-ezan {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  .sljedeci-ezan h3, .sljedeci-ezan h1 {
+    margin: 0;
+    padding: 0;
+  }
+ .day{
+    font-size: 4rem;
+    color: #d1f9d1;
+    }
+    .month{
+        font-size: 4rem;
+        color: #d1f9d1;
+        }
+  .zora{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.izlazakSunca{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  .podne{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+  }
+  .ikindija{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+  .aksam{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  .jacija{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+  }
+#sljedeciEzan{
+    text-align: center;
+}
+
+  #plutajuciTekst {
+    color: rgb(41, 41, 253);
+    font-size: 2.5rem;
+    white-space: nowrap;
+    margin: 0;
+    padding-top: 10px;
+    animation: scrolling-text 10s linear infinite;
+    width: 992px;
+  }
+  @keyframes scrolling-text {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  @font-face {
+    font-family: 'Urdu Nastaliq Unicode';
+    src: url('UrduNastaliq.ttf');
+}
+@import url('https://fonts.cdnfonts.com/css/almarai');
