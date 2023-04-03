@@ -3,9 +3,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Almarai', sans-serif;
-    margin: 0, auto;   
-
-    background-color:#ffff;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+    background-color:hsl(0, 0%, 100%);
     background-image:
     linear-gradient(67.5deg, #ffff 10%, transparent 10%),
     linear-gradient(157.5deg, #ffff 10%, transparent 10%),
@@ -105,12 +106,15 @@ body {
 .treciDio {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
     font-size: 3rem;
 }
 .mjesecigodina {
     line-height: 0.8px;
+    margin-left: 10rem;
 }
+#dan{
+  margin-left: 26rem;
+  }
 .cetvrtiDio {
     font-size: 2rem;
     display: flex;
@@ -128,6 +132,7 @@ body {
     flex-direction: column;
     justify-content: end;
     text-align: end;
+    color: rgb(153, 13, 13);
 }
 .petiDio{
     height: 100%;
@@ -162,12 +167,12 @@ body {
  .day{
     font-size: 4rem;
     color: #d1f9d1;
-    }
-    .month{
-        font-size: 4rem;
-        color: #d1f9d1;
-        }
-  .zora{
+ }
+.month{
+   font-size: 4rem;
+   color: #d1f9d1;
+  }
+.zora{
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -177,12 +182,12 @@ body {
     flex-direction: row;
     justify-content: start;
   }
-  .podne{
+ .podne{
     display: flex;
     flex-direction: row;
     justify-content:start;
   }
-  .ikindija{
+.ikindija{
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -192,7 +197,7 @@ body {
     flex-direction: row;
     justify-content: start;
   }
-  .jacija{
+ .jacija{
     display: flex;
     flex-direction: row;
     justify-content:start;
@@ -200,8 +205,11 @@ body {
 #sljedeciEzan{
     text-align: center;
 }
+#zadnjiDio{
+  overflow: hidden;
+}
 
-  #plutajuciTekst {
+#plutajuciTekst {
     color: rgb(41, 41, 253);
     font-size: 2.5rem;
     white-space: nowrap;
@@ -209,8 +217,9 @@ body {
     padding-top: 10px;
     animation: scrolling-text 10s linear infinite;
     width: 992px;
-  }
-  @keyframes scrolling-text {
+    
+}
+@keyframes scrolling-text {
     0% {
       transform: translateX(0%);
     }
@@ -219,7 +228,7 @@ body {
     }
   }
 
-  @font-face {
+ @font-face {
     font-family: 'Urdu Nastaliq Unicode';
     src: url('UrduNastaliq.ttf');
 }
