@@ -113,7 +113,15 @@ body {
     margin-left: 10rem;
 }
 #dan{
-  margin-left: 28.5rem;
+  margin-left: 10.5rem;
+  margin-top: -1rem;
+  text-align: center;
+  }
+  #ramazan{
+    text-align: center;
+    margin-left: 7rem;
+    margin-top: 20px;
+    margin-bottom: 1rem;
   }
 .cetvrtiDio {
     font-size: 2rem;
@@ -213,7 +221,7 @@ body {
     color: rgb(41, 41, 253);
     font-size: 2.5rem;
     white-space: nowrap;
-    margin: 0;
+  margin-top: 10px;
     padding-top: 10px;
     animation: scrolling-text 10s linear infinite;
     width: 992px;
