@@ -117,3 +117,17 @@ switch (day){
   tacnoVrijeme.innerHTML = hours + ":" + minutes + ":" + seconds;
 }
 setInterval(updateTime, 1000)
+
+fetch('https://api.vaktija.ba/')
+  .then(response => response.json())
+  .then(data => {
+      const timings = data.data.timings;
+      document.getElementById("vrijemeZore").innerText = timings.Fajr;
+      document.getElementById("vrijemeIzlaskaSunca").innerText = timings.Sunrise;
+      document.getElementById("vrijemePodne").innerText = timings.Dhuhr;
+      document.getElementById("vrijemeIkindije").innerText = timings.Asr;
+      document.getElementById("vrijemeAksama").innerText = timings.Maghrib;
+      document.getElementById("vrijemeJacije").innerText = timings.Isha;
+    })
+    .catch(error => console.error(error));
+
